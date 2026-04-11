@@ -1,3 +1,7 @@
+// TODO: migrate localStorage usage to chrome.storage.sync 
+//    more consistent with the background.js file
+//    localStorage is more out of date now
+
 //background.js file used to help create this, so we know what to credit
 chrome.runtime.onInstalled.addListener(async () => {
     //addListener is listening to what we want to do when this opens
@@ -17,7 +21,6 @@ document.getElementById("clearGenReminders").addEventListener("click", cleargenR
 document.getElementById("settings").addEventListener("click", setting);
 document.getElementById("refresh").addEventListener("click", refresh);
 var buttonList = document.getElementsByClassName("button");
-
 var buddy = localStorage.getItem('buddy');
 console.log("bud: ", buddy);
 var buddyStringAccess = './Images/'+buddy+'_copy.jpg';
