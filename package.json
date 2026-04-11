@@ -1,0 +1,24 @@
+{
+  "name": "mystudybuddy",
+  "version": "1.0.0",
+  "description": "Busy students often forget to take care of themselves while studying hard. My Study Buddy is a Chrome extension that allows users to choose what pre-set study break types to be reminded of (hydrate, eat snack, or stretch), set their own reminders, and block distracting sites. You may also choose between 3 hand-drawn study buddies!",
+  "main": "background.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yborger/mystudybuddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yborger/mystudybuddy/issues"
+  },
+  "homepage": "https://github.com/yborger/mystudybuddy#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
