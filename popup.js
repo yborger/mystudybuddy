@@ -17,7 +17,7 @@ chrome.runtime.onInstalled.addListener(async () => {
 //ALL BUTTONS ON POP-UP CLICK EVENTS
 document.getElementById("reminderbtn").addEventListener("click", openReminderForm);
 document.getElementById("clearUserReminders").addEventListener("click", clearReminders);
-document.getElementById("clearGenReminders").addEventListener("click", cleargenReminders);
+//document.getElementById("clearGenReminders").addEventListener("click", cleargenReminders);
 document.getElementById("settings").addEventListener("click", setting);
 document.getElementById("refresh").addEventListener("click", refresh);
 var buttonList = document.getElementsByClassName("button");
