@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&family=Pompiere&display=swap');
+.life-savers-regular {
+  font-family: "Life Savers", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.life-savers-bold {
+  font-family: "Life Savers", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.life-savers-extrabold {
+  font-family: "Life Savers", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
 body{
     font-family: 'Inter', sans-serif;
     background-color: #F8F8F8;
@@ -16,7 +36,7 @@ p1{
     margin-top: 30px;
 }
 h1{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Life Savers', serif;
     color: black;
     text-align: center;
     position: relative;
@@ -35,24 +55,30 @@ button{
     width: 175px;
 }
 #settings{
+    padding: 12px;
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 0;
     cursor: pointer;
 }
 #refresh{
-    position:absolute;
-    top:5px;
-    right:5px;
+    padding: 12px;
     cursor: pointer;
 }
 #reminderbtn{
+    padding: 12px;
     cursor: pointer;
 }
-#clearUserReminers{
-    cursor: pointer;
-}
-#clearGenReminders{
+#clearUserReminders{
+    padding: 12px;
     cursor: pointer;
 }
 
+
+#msbTitle{
+    font-family: 'Life Savers', serif;
+    font-weight: 555;
+    font-size: 20pt;
+    color: black;
+    margin-top: 40px;
+}
